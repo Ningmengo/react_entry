@@ -11,6 +11,7 @@ const UseEffectBasics = () => {
       document.title = `message ${value}`;
     }
   }, [value]);
+
   console.log("render component");
 
   return (
